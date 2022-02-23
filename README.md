@@ -1,11 +1,23 @@
 # React-Chat
 
-login 
+### Introduction
+React-Chat is a full-stack websit app with React, Redux and Firebase.
+- Frontend: React, Redux(state container for JavaScript apps)
+- Backend : Firebase
+
+---
+
+### Demo image
+
+- login 
 http://localhost:[portNumber]/login
 ![image](https://github.com/Jasmine-fe/React-Chat/blob/master/img/login.png)
 
-demo
+- channel 
 ![image](https://github.com/Jasmine-fe/React-Chat/blob/master/img/content.png)
 
-First: 把 firebase.js 裡面的 firebaseConfig 替換成自己的連接資訊<br/>
-Second: 導至 http://localhost:[portNumber]/login 就能看到頁面了（ portNumber default: 3000 )
+---
+
+### Get Started
+1. replace connection infomation - firebaseConfig (in *firebase.js* )
+2. Open website: http://localhost:[portNumber]/login（ default port number : 3000 ), will see the login page as the above image.
